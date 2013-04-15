@@ -1,0 +1,14 @@
+<archetype-catalog
+	xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
+	<archetypes>
+		<archetype>
+			<groupId>net.pyxzl.archetypes</groupId>
+			<artifactId>testable-archetype</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<description>A standard Java project that includes JMockit, testNG, Findbugs and Checkstyle.</description>
+		</archetype>
+	</archetypes>
+</archetype-catalog>
+`
