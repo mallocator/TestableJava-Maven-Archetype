@@ -9,6 +9,8 @@ To install the archetype in your local repository just execute
 
 	mvn install
 
+To install the archetype into the local maven catalog, you can just copy the "arcehtype-catalog.xml" file to "<home>/.m2/repository".
+
 # Usage
 
 To use the archetype just run
