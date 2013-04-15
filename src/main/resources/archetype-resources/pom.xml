@@ -10,6 +10,8 @@
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
 		<java.version>1.7</java.version>
 
+		<version.logback>1.0.11</version.logback>
+		<version.groovy>2.1.2</version.groovy>
 		<version.testng>6.8.1</version.testng>
 		<version.jmockit>1.1</version.jmockit>
 
@@ -21,6 +23,17 @@
 	</properties>
 
 	<dependencies>
+		<!-- Required for logging -->
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${version.logback}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>${version.groovy}</version>
+		</dependency>
 		<!-- Required for mocking during tests -->
 		<dependency>
 			<groupId>com.googlecode.jmockit</groupId>
